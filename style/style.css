@@ -1,0 +1,135 @@
+@font-face { 
+    font-family:"penguin-attack-cyrillic";
+    src: url(/fonts/penguin-attack-cyrillic.otf);
+}
+html, body {  /*Убираем отступы старницы сайта*/
+    margin: 0;
+    padding: 0;
+    height: 100%; 
+     font-family: "penguin-attack-cyrillic"; /*Подключение шрифта*/
+    background-color: #9e4f05b0;
+  }
+
+.container_sait { /*Контейнер для того чтобы задать боковые отступы */
+background-color: white;
+max-width: 1200px; 
+margin: 0 auto;
+height: 1500px;    
+padding: 0 20px;   
+box-sizing: border-box; 
+}
+
+
+.header { /*Шапка сайта*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+.logo {
+    font-size: 44px;
+    
+}
+.phone {
+font-size: 44px;
+}
+
+
+.nav {     /*Стили для верхней навигации*/
+text-decoration: underline dashed;
+box-shadow: 5px 5px 15px rgba(101, 67, 33, 4);
+list-style-type: none;
+padding: 0; 
+margin: 0; 
+display: flex; 
+background-color: #ff8f10;
+padding: 5px; 
+border-radius: 20px;
+border: 1px solid #b86200; 
+li
+ {
+    margin-right: 60px; 
+}
+}
+
+
+button { /*Кнопки сайта */
+all: unset;
+background-color: #ff8f10;
+color: rgb(57.3%, 30.6%, 0); 
+border: none; 
+border-radius: 5px; 
+font-size: 21px; 
+cursor: pointer; 
+transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #924e00;
+  }
+a {
+    all: unset;
+}
+
+
+.container_left_nav { /*Контейнер бокового меню навигации*/
+    margin-top: 50px;
+    display: flex; 
+}
+.sidebar_cofe { /*Стили для бокового меню навигации*/ 
+text-decoration: underline dashed;
+box-shadow: 5px 5px 15px rgba(101, 67, 33, 4);
+list-style-type: none;
+width: 960px;
+height: 250px;
+text-align: left;
+font-size: 30px ;
+border: 1px solid #000000; 
+background-color: #ff8f10;
+border-radius: 20px;
+}
+.sidebar_cofe ul { 
+    list-style-type: none; 
+}
+
+
+.content_main { /*Стили для меню инфы*/
+    flex: 1; 
+    padding-left: 100px; 
+}
+img {
+    width: 200px;
+}
+p {
+    font-size: 20px;
+}
+
+
+/*-----------------------------------------------------Стили для певой страницы------------------------------------------------------------*/
+
+.cofe_spisok {
+    font-size: 20px;
+     ol {
+        list-style-type: none
+     }   
+    }
+
+.img_irish {
+    width: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
